@@ -1,0 +1,10 @@
+{
+    "id": "easyimage-uploader",
+    "name": "EasyImage Uploader",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "一键上传图片到EasyImage图床",
+    "author": "Richard Yang",
+    "authorUrl": "https://github.com/yourname",
+    "isDesktopOnly": false
+}
