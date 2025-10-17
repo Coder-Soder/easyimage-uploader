@@ -1,7 +1,7 @@
 const DEFAULT_SETTINGS = {
-    apiUrl: 'https://image.thinkflow.top:16666/api/index.php',
-    token: 'e45519463211461754c4514b62d69bff',
-    domain: 'https://image.thinkflow.top:16666',
+    apiUrl: 'https://yourdomain.com',
+    token: 'your token here',
+    domain: 'https://yourdomain.com for image',
     compression: 80,
     convertFormat: 'webp',
     autoUpload: true,
@@ -85,4 +85,5 @@ class EasyImageSettingTab extends PluginSettingTab {
                     await this.plugin.saveSettings();
                 }));
     }
+
 }
